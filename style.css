@@ -1,0 +1,57 @@
+
+@font-face {
+    font-family: "ProjectCapsule";
+    src: url(Projectcapsule-Regular.otf);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background:#c6c6c6;
+
+}
+canvas {
+  display: block;
+}
+
+main{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+  #iframe1 {
+    transform: scaleX(-1);
+  }
+
+
+ .flip-vertical {
+    transform: scaleY(-1);
+  }
+
+p {
+  margin: 0 0 1em 0;
+  font-family: "ProjectCapsule", Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.under{
+ font-family: "ProjectCapsule", Helvetica, sans-serif;
+ font-size: 1.1em;
+ text-decoration: underline dotted;
+}
+
+header {
+  width: 23%;
+  margin: 1%;
+  float: right;
+  font-size: 1.3em;
+  line-height: 1.25em;
+  font-family: "Simula", "Times New Roman", Times, Georgia, serif;
+  overflow: auto;
+  -ms-overflow-style: auto;
+  scrollbar-color: #92f70e transparent;
+  scrollbar-width: thin;
+}
+
